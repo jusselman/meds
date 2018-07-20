@@ -1,0 +1,352 @@
+
+// location section //
+.section-locations {
+
+  height: 100vh;
+  background-color: rgb(235, 255, 255);
+  color: #000;
+  background-image: url('../img/locationsbg.jpg');
+  background-size: cover;
+  position: relative;
+
+  img {
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+.locations-banner {
+    height: 300px;
+    width: 100% !important;
+    position: relative;
+    // margin:50px auto;
+    background-size: cover;
+    text-align: center;
+
+  }
+
+  .locations-header {
+    text-align: center;
+  }
+
+  .locationbg1 {
+    height: 500px;
+    width: 1200px;
+    background: $primary-color;
+  }
+
+  .box {
+    min-height: 500px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 1em;
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    background: rgba(161, 240, 244, .3);
+  }
+
+  .address2 {
+    margin-top: 20%;
+  }
+
+  h1{
+    text-align:center;
+    font-size: 80px;
+    z-index: 99;
+    margin:0 auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    color: #000;
+    padding-top: 75px;
+  }
+  h2
+  {
+    text-align:center;
+    font-size: 50px;
+    z-index: 99;
+    // margin:3.25em auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    color: #000;
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+}
+
+.slide-fade-enter {
+  transform: translateY(-40px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+
+// FAQ SECTION FAQ SECTION FAQ SECTION //
+
+.section-faq {
+
+  height: 100vh;
+
+  img {
+    height: 400px;
+    width: 600px;
+    margin: 40px auto;
+    display: block;
+  }
+div#status{
+  position: fixed;
+  font-size: 20px;
+}
+
+div#wrap{
+  width: 800px; margin: 0 auto
+}
+
+div.newData{
+    height: 100px;
+    background: #09F;
+    margin: 10px 0;
+}
+}
+
+
+// DOCTOR DOCTOR DOCTOR DOCTOR DOCTORS //
+.section-doctors{
+
+  height: 100vh;
+  background: $primary-color;
+  position: relative;
+
+  h1 {
+    text-align: center;
+    margin-top:100px;
+  }
+
+    h3 {
+      text-align: center;
+       }
+
+    .doctorPortal {
+    width: 850px;
+    height: 500px;
+    margin: 3em auto;
+    display: block;
+    border-radius: 1em;
+
+  }
+
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 5em;
+      margin: 0 auto;
+      display: block;
+
+    }
+
+}
+
+// OUR STAFF OUR STAFF OUR STAFF OUR STAFF //
+
+.section-staff {
+  height: 100vh;
+  text-align: center;
+
+  img {
+    width: 900px;
+    height: 550px;
+    margin: 3em auto;
+    display: block;
+  }
+
+
+}
+
+// MEDIA SECTION MEDIA SECTION MEDIA SECTION //
+.section-media {
+  text-align: center;
+  height: 100vh;
+  background: white;
+  position: relative;
+
+  h1 {
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 60px;
+  }
+
+
+  img {
+    width: 900px;
+    height: 800px;
+    margin: 3em auto;
+    display: block;
+    // border: 1px solid black;
+    // border-radius: 100%;
+  }
+
+  .media-link {
+    color: rgb(0,107,182);
+  }
+
+  iframe {
+    margin-top:-815px;
+    margin-left: 208px;
+    display: block;
+    position:absolute;
+
+  }
+}
+
+
+
+
+// CONTACT US SECTION //
+.section-contact {
+  // margin-top:125px!important;
+
+.bg-design {
+  position: relative;
+}
+
+
+.contact-banner {
+  height: 500px;
+  width: 100% !important;
+  position: relative;
+  // position: relative;
+  background-image: url('../img/cityscapeblue.jpg');
+  // background-attachment: fixed ;
+  //  background-repeat: no-repeat;
+   background-size: cover;
+  //  background-position: center;
+  //  left:0;
+
+}
+
+.contact-header{
+
+
+h1{
+  text-align:center;
+  font-size: 80px;
+  z-index: 99;
+  margin:2em auto;
+  width: 100%;
+  display: block;
+  position: absolute;
+  color: #fff;
+}
+h2
+{
+  text-align:center;
+  font-size: 70px;
+  z-index: 99;
+  margin:3.25em auto;
+  width: 100%;
+  display: block;
+  position: absolute;
+  color: #fff;
+}
+}
+
+.contact-details {
+  padding: 100px 50px;
+  background: #fff;
+}
+
+.box {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 1em;
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+}
+
+.contact-right {
+  padding-top:100px;
+  background: #fff;
+  text-align: center;
+
+  p {
+    font-size: 30px;
+    padding-top: 35px;
+  }
+  .diagram {
+    height: 650px;
+    margin-top: 50px;
+
+  }
+
+}
+}
+
+
+
+
+
+// The section on why to choose GS Specialists//
+.section-about {
+  background-color: #fff;
+  border-top: 1px solid $dark-color;
+  position:relative;
+  // padding: 75px 75px 75px 75px;
+  // position: relative;
+  // margin-top:125px;
+  // margin-top:1000px;
+  // padding-top: 40px;
+  // padding-bottom: 120px;
+  // padding-left: 75px;
+  // padding-right: 75px;
+.border-between {
+  margin-left: 350px !important;
+  margin-right: 350px !important;
+}
+
+.aao {
+  padding: 50px 0 100px 0;
+}
+
+ h3, p, {
+  margin: 0 auto;
+  width: 70%;
+  display: block;
+  text-align: center;
+
+
+}
+
+ .fas {
+   color: $secondary-color;
+   margin: 20px auto;
+   display: block;
+   text-align: center;
+   padding-top: 50px;
+ }
+
+  h1 {
+    // padding: 75px;
+    text-align: center;
+    width: 30%;
+    border-bottom: 3px solid $primary-color;
+    margin: 25px auto;
+    padding-top: 100px;
+
+}
+
+
+}
